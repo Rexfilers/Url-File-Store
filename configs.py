@@ -8,7 +8,7 @@ class Config(object):
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "6502053475:AAFUb8EgJwzdhVZBhg7eSbQ3YfD36v9BqWU")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "Mvpsfilebot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001749570382"))
-  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "GreyMatterslinks.in")
+  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "api.shareus.io")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "1642086010"))
   DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://yeleci3611:1234@cluster0.vltv8hr.mongodb.net/?retryWrites=true&w=majority")
